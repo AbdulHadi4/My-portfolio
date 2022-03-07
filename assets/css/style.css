@@ -73,6 +73,13 @@ h1, h2, h3, h4, h5, h6 {
   background: #040b14;
   overflow-y: auto;
 }
+
+@media screen and (min-width: 497px) {
+  .download-CV {
+      display: none;
+  }
+}
+
 #header .profile img {
   margin: 15px auto;
   display: block;
@@ -466,6 +473,14 @@ section {
   border-radius: 50px;
   padding: 2px 15px;
 }
+
+@media screen and (max-width: 497px) {
+  .resume {
+      display: none;
+
+  }
+}
+
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
